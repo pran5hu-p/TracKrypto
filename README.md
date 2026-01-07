@@ -1,4 +1,4 @@
-# 🪙 TracKrypto
+<img width="1" height="3" alt="image" src="https://github.com/user-attachments/assets/55ae1dcb-af4f-4d0b-96db-3b442a2df190" /># 🪙 TracKrypto
 
 **TracKrypto** is a real-time cryptocurrency tracking application built with **React**. It provides users with live price updates, detailed market data, and interactive price charts for thousands of cryptocurrencies.
 
@@ -75,3 +75,26 @@ src/
 │   └── formatter.js       # Helper functions for currency formatting
 ├── App.jsx                # Main App component & Routes
 └── main.jsx               # Entry point
+```
+
+---
+
+## ⚠️ Note on API Limits
+
+This project uses the **free tier** of the CoinGecko API.
+
+* **Rate Limit:** ~10-30 calls per minute.
+* If you see data not loading or 429 errors, please wait a minute and refresh.
+
+---
+
+## 👨‍💻 Author
+
+**Pranshu**
+* GitHub: [@pran5hu-p](https://github.com/pran5hu-p)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
