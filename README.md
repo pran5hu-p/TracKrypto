@@ -1,16 +1,87 @@
-# React + Vite
+🪙 TracKrypto
+TracKrypto is a real-time cryptocurrency tracking application built with React. It provides users with live price updates, detailed market data, and interactive price charts for thousands of cryptocurrencies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo: trac-krypto.vercel.app
 
-Currently, two official plugins are available:
+✨ Features
+⚡ Real-Time Data: Live cryptocurrency prices, market cap, and volume updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📈 Interactive Charts: Dynamic 7-day price history charts powered by Recharts.
 
-## React Compiler
+🔍 Search Functionality: Instantly find any coin by name or symbol.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📱 Responsive Design: Fully optimized for desktop, tablet, and mobile devices.
 
-## Expanding the ESLint configuration
+🌙 Dark Mode UI: sleek, modern dark-themed interface for better readability.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔄 Auto-Polling: Data automatically refreshes every 30 seconds without page reloads.
+
+🛠️ Tech Stack
+Frontend: React.js, Vite
+
+Routing: React Router DOM
+
+Charts: Recharts
+
+API: CoinGecko Public API
+
+Deployment: Vercel
+
+Styling: CSS3 (Custom Responsive Layouts)
+
+🚀 Getting Started
+Follow these instructions to run the project locally on your machine.
+
+Prerequisites
+Node.js (v14 or higher)
+
+npm or yarn
+
+Installation
+Clone the repository:
+
+Bash
+
+git clone https://github.com/pran5hu-p/TracKrypto.git
+cd TracKrypto
+Install dependencies:
+
+Bash
+
+npm install
+Start the development server:
+
+Bash
+
+npm run dev
+Open your browser: Navigate to http://localhost:5173 to view the app.
+
+📂 Project Structure
+Bash
+
+src/
+├── api/
+│   └── coingecko.js       # API fetch functions (Axios/Fetch)
+├── components/
+│   └── cryptocard.jsx     # Reusable coin display card
+├── pages/
+│   ├── Home.jsx           # Main landing page with search & list
+│   └── CoinDetail.jsx     # Detailed view with charts
+├── utils/
+│   └── formatter.js       # Helper functions for currency formatting
+├── App.jsx                # Main App component & Routes
+└── main.jsx               # Entry point
+⚠️ Note on API Limits
+This project uses the free tier of the CoinGecko API.
+
+Rate Limit: ~10-30 calls per minute.
+
+If you see data not loading or 429 errors, please wait a minute and refresh.
+
+👨‍💻 Author
+Pranshu
+
+GitHub: @pran5hu-p
+
+📄 License
+This project is open source and available under the MIT License.
