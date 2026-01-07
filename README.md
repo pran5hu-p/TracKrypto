@@ -1,4 +1,4 @@
-<img width="1" height="3" alt="image" src="https://github.com/user-attachments/assets/55ae1dcb-af4f-4d0b-96db-3b442a2df190" /># 🪙 TracKrypto
+# 🪙 TracKrypto
 
 **TracKrypto** is a real-time cryptocurrency tracking application built with **React**. It provides users with live price updates, detailed market data, and interactive price charts for thousands of cryptocurrencies.
 
